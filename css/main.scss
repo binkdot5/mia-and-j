@@ -3,6 +3,18 @@
 }
 
 @font-face {
+    font-family: 'Gotham-Light';
+    src: url('../fonts/Gotham-Light.eot');
+    src: url('../fonts/Gotham-Light.woff2') format('woff2'),
+         url('../fonts/Gotham-Light.woff') format('woff'),
+         url('../fonts/Gotham-Light.ttf') format('truetype'),
+         url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg'),
+         url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
     font-family: 'Gotham-Medium';
     src: url('../fonts/Gotham-Medium.woff') format('woff'),
          url('../fonts/Gotham-Medium.ttf') format('truetype'),
@@ -58,23 +70,11 @@
     font-weight: normal;
     font-style: normal;
 }
-  
-@font-face {
-    font-family: 'Gotham-Light';
-    src: url('../fonts/Gotham-Light.eot');
-    src: url('../fonts/Gotham-Light.woff2') format('woff2'),
-         url('../fonts/Gotham-Light.woff') format('woff'),
-         url('../fonts/Gotham-Light.ttf') format('truetype'),
-         url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg'),
-         url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype');
-    font-weight: normal;
-    font-style: normal;
-}
 
 body {
     margin: 0;
     padding: 25px;
-    font-family: 'GothamNarrow-Book', 'Helvetica', sans-serif;
+    font-family: 'Gotham-Light', Arial, sans-serif;
     color: rgb(166, 168, 171);
 }
 
@@ -101,18 +101,6 @@ body {
     grid-template-areas: 
             "a b"
             ". c";
-}
-
-#01Box > li {
-    grid-area: "a";
-}
-
-#30Box > li {
-    grid-area: "c";
-}
-
-#35Box > li {
-    grid-area: "b";
 }
 
 #mjMenu {
@@ -160,6 +148,14 @@ a:visited {
     margin-top: -20px;
 }
 
+.dark {
+    color: #000;
+}
+
+.pbot {
+    padding-top: 60px;
+}
+
 .mjTitle h2{
     font-family: 'GothamNarrow-Medium', Arial, sans-serif;
     font-size: 12rem;
@@ -172,7 +168,7 @@ a:visited {
     font-size: 5rem;
     line-height: 75px;
     letter-spacing: -7px;
-    margin-left: 20px;
+    // margin-left: 20px;
 }
 
 .mjAddress {
@@ -311,14 +307,22 @@ a:visited {
     }
 
     #logo {
-        width: 12vh;
-        margin-right: 0;
+        width: 22vh;
+        // margin-right: 0;
     }
 
     #mjMenu {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto;
+        grid-template-areas:
+            ". a"
+            "b c"
+            "d e"
+            "f g"
+            "h i"
+            "j k"
+            "l l";
         margin-left: -53%;
     }
 
@@ -389,7 +393,7 @@ a:visited {
         font-size: 2.65rem;
         line-height: 40px;
         letter-spacing: -2px;
-        margin-left: 20px;
+        // margin-left: 10px;
     }
 
     #body p {
@@ -397,5 +401,70 @@ a:visited {
         font-size: 1.2rem;
         padding-top: 40px;
         line-height: 16pt;
+    }
+}
+
+@media (max-width: 414px) {
+    #logo-shop {
+        margin-left: 5px;
+        width: 12vh;
+        margin-top: -7px;
+    }
+
+    #mjMenu {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            ". a"
+            "b c"
+            "d e"
+            "f g"
+            "h i"
+            "j k"
+            "l l";
+        margin-left: -51%;
+    }
+
+    .shopText {
+        font-size: 7px;
+        color: #000;
+        line-height: 8.5px;
+    }
+
+    .cookieTitle {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: -20px;
+    }
+
+    .cookieTitle h2 {
+        font-family: 'GothamNarrow-Medium', Arial, sans-serif;
+        font-size: 3rem;
+        letter-spacing: -2.5px;
+    }
+
+    .cookieTitle h3{
+        font-family: 'Gotham-Light', Arial, sans-serif;
+        font-size: 1.4rem;
+        line-height: 20px;
+        letter-spacing: -2px;
+        margin-left: 10px;
+    }
+
+    .cookieImg {
+        max-width: 12vh;
+        margin-left: 20px;
+    }
+
+    .veg {
+        width: 15px;
+        margin-left: 15px;
+    }
+
+    .nutriRow {
+        display: inline-block;
+        margin: 0;
     }
 }
