@@ -1,0 +1,699 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Gotham-Medium', sans-serif;
+}
+a:hover,a:focus {
+	text-decoration: none;
+}
+.img-responsive {
+	display: block;
+	max-width: 100%;
+}
+
+*:focus {
+    outline: none;
+}
+input[type="button"]{
+   outline:none;
+}
+img {
+	max-width: 100%;
+}
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url('../fonts/Gotham-Medium.woff') format('woff'),
+       url('../fonts/Gotham-Medium.ttf') format('truetype'),
+       url('../fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamMedium_1';
+  src: url('../fonts/GothamMedium_1.eot');
+  src: url('../fonts/GothamMedium_1.woff2') format('woff2'),
+       url('../fonts/GothamMedium_1.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-Medium';
+  src: url('../fonts/Gotham-Medium.woff') format('woff'),
+       url('../fonts/Gotham-Medium.ttf') format('truetype'),
+       url('../fonts/Gotham-Medium.svg#Gotham-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamMedium';
+  src: url('../fonts/GothamMedium.eot');
+  src: url('../fonts/GothamMedium.woff2') format('woff2'),
+       url('../fonts/GothamMedium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-Black';
+  src: url('../fonts/Gotham-Black.eot');
+  src: url('../fonts/Gotham-Black.woff2') format('woff2'),
+       url('../fonts/Gotham-Black.woff') format('woff'),
+       url('../fonts/Gotham-Black.ttf') format('truetype'),
+       url('../fonts/Gotham-Black.svg#Gotham-Black') format('svg'),
+       url('../fonts/Gotham-Black.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-Thin';
+  src: url('../fonts/Gotham-Thin.eot');
+  src: url('../fonts/Gotham-Thin.woff2') format('woff2'),
+       url('../fonts/Gotham-Thin.woff') format('woff'),
+       url('../fonts/Gotham-Thin.ttf') format('truetype'),
+       url('../fonts/Gotham-Thin.svg#Gotham-Thin') format('svg'),
+       url('../fonts/Gotham-Thin.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamNarrow-Medium';
+  src: url('../fonts/GothamNarrow-Medium.eot');
+  src: url('../fonts/GothamNarrow-Medium.woff2') format('woff2'),
+       url('../fonts/GothamNarrow-Medium.woff') format('woff'),
+       url('../fonts/GothamNarrow-Medium.ttf') format('truetype'),
+       url('../fonts/GothamNarrow-Medium.svg#GothamNarrow-Medium') format('svg'),
+       url('../fonts/GothamNarrow-Medium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'GothamNarrow-Book';
+  src: url('../fonts/GothamNarrow-Book.eot');
+  src: url('../fonts/GothamNarrow-Book.woff2') format('woff2'),
+       url('../fonts/GothamNarrow-Book.woff') format('woff'),
+       url('../fonts/GothamNarrow-Book.ttf') format('truetype'),
+       url('../fonts/GothamNarrow-Book.svg#GothamNarrow-Book') format('svg'),
+       url('../fonts/GothamNarrow-Book.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url('../fonts/Gotham-Light.eot');
+  src: url('../fonts/Gotham-Light.woff2') format('woff2'),
+       url('../fonts/Gotham-Light.woff') format('woff'),
+       url('../fonts/Gotham-Light.ttf') format('truetype'),
+       url('../fonts/Gotham-Light.svg#Gotham-Light') format('svg'),
+       url('../fonts/Gotham-Light.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+.mia-j-dasktop {
+    padding: 28px 15px 0 15px;
+}
+.mia-j-top {
+    height: 80vh;
+}
+.mia-j-top figure { 
+	min-height: 52.2vh;
+}
+.mia-j-top span {
+    font-family: Gotham-Thin;
+    float: left;
+    font-weight: 900;
+    font-size: 18.2px;
+    line-height: 24px;
+    color: rgb(166, 168, 171);
+}
+
+.mia-address h3 {
+    font-family: Gotham-Light;
+    font-weight: 500;
+    line-height: 4.3vh;
+}
+.mia-address h2 {
+    color: rgb(166, 168, 171);
+    font-family: GothamNarrow-Medium;
+    font-size: 60px;
+    font-weight: 300;
+    margin: 0 0;
+}
+.mia-address h4 {
+    font-family: Gotham-Light;
+    color: rgb(166, 168, 171);
+    letter-spacing: 15.2px;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 5px 0 0;
+    float: left;
+    width: 100%;
+}
+.mia-address h3 strong {
+    /*color: rgb(166, 168, 171);*/
+    color: rgb(209, 211, 212);
+    font-family: GothamNarrow-Medium;
+    font-size: 89.8px;
+    font-weight: 300;
+    margin: 16px 9px 0px -4px;
+    float: left;
+    letter-spacing: -3px;
+}
+.mia-j-right ul {
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+.mia-j-right ul li {
+    display: block;
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.mia-j-right li img {
+    /* width: 100%; */
+    height: 14vh;
+    transition: transform .2s;
+}
+.mia-j-right li img:hover {
+    transform: scale(1.07);
+}
+.bottom-footer p {
+    margin: 0px;
+    font-family: Gotham-Light;
+    font-size: 1.6vw;
+    line-height: 5vh;
+    color: rgb(166, 168, 171);
+    text-align: justify;
+}
+.mia-address {
+    position: absolute;
+    bottom: 9px;
+}
+.follow-us {
+    float: left;
+    margin: 4px 0 0;
+}
+.follow-us ul {
+    margin: 0;
+    padding: 0;
+}
+.follow-us ul li {
+    display: inline-block;
+}
+.follow-us ul li {
+    display: inline-block;
+    font-family: 'GothamNarrow-Book';
+    font-size: 21px;
+    letter-spacing: 8.96px;
+    border-right: 1px rgb(166, 168, 171) solid;
+    padding: 0 11px;
+    line-height: 18px;
+    font-weight: 100;
+}
+.follow-us li:first-child {
+    padding-left: 0px;
+}
+.follow-us li:last-child {
+    border-right: 0px;
+}
+.follow-us li a {
+    color: rgb(166, 168, 171);
+}
+.follow-us li a:hover {
+    font-weight: bold;
+}
+@media(min-width: 1280px) and (max-width: 1366px) {
+	.mia-address h4 {
+	    letter-spacing: 14.3px;
+	}
+	.follow-us ul li {
+	    letter-spacing: 8.2px;
+	}
+	.mia-address h3 strong {
+	    margin: 18px 9px 0px -4px;
+	}
+}
+@media only screen and (min-width : 768px) and (max-width : 800px) { 
+
+	.mia-j-top span {
+	    font-size: 15px;
+	    line-height: 24px;
+	    float: left;
+	    text-size-adjust: none;
+	}
+	.mia-j-top figure img {
+	    width: 100%;
+	}
+	.mia-j-right li img {
+		height: 128px;
+	}
+	.mia-j-top {
+	    height: 73vh;
+	}
+	.bottom-footer p {
+	    line-height: 2rem;
+	    font-size: 1.1rem;
+	}
+	.mia-address h4 {
+	    letter-spacing: 0.75rem;
+	    font-size: 19px;
+	    margin: 0px 0 0;
+	}
+	.mia-address h3 strong {
+	    margin: 17px 11px 0px -4px;
+	    font-size: 5.2rem;
+	}
+	.follow-us {
+	    float: left;
+	    margin: 4px 0 0;
+	}
+	.follow-us ul li {
+	    font-size: 22px;
+	    letter-spacing: 7.4px;
+	    padding: 0 1.3vw;
+	}
+	.follow-us ul li:last-child {
+		padding-right: 0px;
+	}
+	.mia-j-top figure {
+	    min-height: 59.2vh;
+	}
+	.mia-address {
+	    bottom: 7px;
+	}
+}
+@media (max-height: 768px) {
+	.mia-j-right li img {
+	    height: 11vh;
+	}
+	.mia-j-top {
+	    height: 67vh;
+	}
+}
+@media (min-width: 801px) and (max-width: 1024px) {
+	.mia-address h3 strong {
+	    font-size: 84px;
+	    margin: 17px 8px 0px -4px;
+	    letter-spacing: -4px;
+	}
+	.mia-j-top span {
+	    font-size: 15.6px;
+	    line-height: 23px;
+	}
+	.mia-j-top figure img {
+	    width: 320px;
+	}
+	.bottom-footer p {
+	    line-height: 2rem;
+	    font-size: 1.1rem;
+	}
+	.mia-address h4 {
+	    letter-spacing: 11.4px;
+	    font-size: 20px;
+	    margin: 1px 0 0;
+	}
+	.follow-us {
+	    float: left;
+	    margin: 16px 0 0;
+	}
+	.follow-us {
+	    margin: 4px 0 0;
+	}
+	.follow-us ul li {
+	    font-size: 21px;
+	    letter-spacing: 7px;
+	    padding: 0px 10px;
+	}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.mobile-view1 {
+		width: 60%;
+		padding: 0px;
+	}
+	.mobile-view2 {
+		width: 40%;
+		padding: 0px;
+	}
+	.mobile-view1 figure img {
+		width: 252px;
+	}
+	.mia-j-right li img {
+	    width: 95px;
+	    height: auto;
+	}
+	.mia-address h2 {
+	    font-size: 8vw;
+	}
+	.mia-address h4 {
+	    letter-spacing: 9.3px;
+	    font-size: 15px;
+	    margin: 3px 0 0;
+	}
+	.follow-us {
+	    margin: 0px 0 0;
+	    line-height: 22px;
+	}
+	.follow-us ul li {
+	    font-size: 15px;
+	    letter-spacing: 5.7px;
+	    padding: 0 10px;
+	    line-height: 13px;
+	}
+	.mia-j-top {
+	    height: auto !important;
+	}
+	.mia-j-top figure { 
+		min-height: 54.2vh;
+	}
+	.bottom-footer p {
+	    font-size: 3.1vw;
+	    line-height: 30px;
+	}
+	.bottom-footer {
+		position: absolute;
+	    bottom: 0px;
+	    padding: 0 15px;
+	    left: 0;
+	}
+	.mia-j-dasktop {
+	    padding: 28px 15px 0 15px;
+	    height: 88vh;
+	    position: relative;
+	}
+	.mia-j-top span {
+	    font-size: 12.6px;
+	    line-height: 17px;
+	}
+	.mia-address h3 strong {
+	    margin: 12px 9px 0px -3px;
+	    font-size: 64px;
+	}
+	.mia-address {
+	    position: absolute;
+	    bottom: 9px;
+	}
+}
+@media (max-width: 480px) and (min-width: 413px) {
+	.mia-address h3 {
+	    line-height: 9px;
+	}
+	.mobile-view1 {
+		width: 60%;
+		padding: 0px;
+	}
+	.mobile-view2 {
+		width: 40%;
+		padding: 0px;
+	}
+	.mobile-view1 figure img {
+	    width: 172px;
+	}
+	.mia-j-right li img {
+	    width: 80px;
+	    height: auto;
+	}
+	.mia-address h2 {
+	    font-size: 8vw;
+	}
+	.mia-address h4 {
+	    letter-spacing: 6.1px;
+	    font-size: 10.8px;
+	    margin: 5px 0 0;
+	}
+	.follow-us {
+	    margin: 0px 0 0;
+	    line-height: 14px;
+	}
+	.follow-us ul li {
+	    font-size: 11.5px;
+	    letter-spacing: 3.8px;
+	    padding: 0 3px;
+	    line-height: 10px;
+	}
+	.mia-j-top {
+	    height: auto !important;
+	}
+	.mia-j-top figure { 
+		min-height: 28vh;
+	}
+	.bottom-footer p {
+	    font-size: 3.3vw;
+	    line-height: 17px;
+	}
+	.bottom-footer {
+		position: absolute;
+	    bottom: 0px;
+	    padding: 0 15px;
+	    left: 0;
+	}
+	.mia-j-dasktop {
+	    padding: 28px 15px 0 15px;
+	    height: 88vh;
+	    position: relative;
+	}
+	.mia-j-top span {
+	    font-size: 9px;
+	    line-height: 12px;
+	}
+	.mia-address h3 strong {
+	    margin: 13px 7px 0px -3px;
+	    font-size: 43px;
+	}
+	.mia-address {
+	    position: absolute;
+	    bottom: 13px;
+	}
+}
+@media (min-width: 375px) and (max-width:414px) {
+	.mobile-view1 {
+		width: 60%;
+		padding: 0px;
+	}
+	.mobile-view2 {
+		width: 40%;
+		padding: 0px;
+	}
+	.mobile-view1 figure img {
+		width: 193px;
+	}
+	.mia-j-right li img {
+	    width: 110px;
+	    height: auto;
+	}
+	.mia-address h2 {
+	    font-size: 8vw;
+	}
+	.mia-address h3 {
+	    font-size: 4vw;
+	    line-height: 1.2rem;
+	}
+
+	.mia-address h4 {
+	    letter-spacing: 5.8px;
+	    font-size: 12.4px;
+	    margin: 4px 0 0;
+	}
+	.follow-us {
+	    margin: 2px 0 0;
+	    line-height: 12px;
+	}
+	.follow-us ul li {
+	    font-size: 12px !important;
+	    letter-spacing: 4.6px;
+	    padding: 0 4px;
+	    line-height: 9px;
+	}
+	.mia-j-right ul li {
+	    margin-bottom: 7px;
+	}
+	.mia-j-top {
+	    height: auto !important;
+	}
+	.mia-j-top figure {
+	    min-height: 28vh;
+	}
+	.bottom-footer p {
+	    font-size: 10px;
+	    line-height: 16px;
+	}
+	.bottom-footer {
+		/*position: absolute;
+	    bottom: 0px;
+	    padding: 0 15px;
+	    left: 0;*/
+	    width: 100%;
+	    float: left;
+	    margin-top: 13px;
+	}
+	.mia-j-dasktop {
+	    padding: 28px 15px 0 15px;
+	    height: 90vh;
+	    position: relative;
+	}
+	.mia-j-top span {
+	    font-size: 8.5px;
+	    line-height: 11px;
+	}
+	.mia-address h3 strong {
+	    margin: 10px 7px 0px -2px;
+	    font-size: 41px;
+	}
+	.mia-address {
+	    position: absolute;
+	    bottom: 3px;
+	}
+	.bottom-footer .col-md-12 {
+	    padding: 0px;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 374px) {
+	.mobile-view1 {
+		width: 60%;
+		padding: 0px;
+	}
+	.mobile-view2 {
+		width: 40%;
+		padding: 0px;
+	}
+	.mobile-view1 figure img {
+		width: 172px;
+	}
+	.mia-j-right li img {
+	    width: 90px;
+	    height: auto;
+	}
+	.mia-address h2 {
+	    font-size: 8vw;
+	}
+	.mia-address h3 {
+	    font-size: 4vw;
+	    line-height: 20px;
+	}
+
+	.mia-address h4 {
+	    letter-spacing: 6.1px;
+	    font-size: 10.8px;
+	    margin: 5px 0 0;
+	}
+	.follow-us {
+	    margin: 0px 0 0;
+	    line-height: 12px;
+	}
+	.follow-us ul li {
+	    font-size: 10.6px !important;
+	    letter-spacing: 4.3px;
+	    padding: 0 2px;
+	    line-height: 9px;
+	}
+	.mia-j-top {
+	    height: auto !important;
+	}
+	.mia-j-top figure { 
+		min-height: 28vh;
+	}
+	.bottom-footer p {
+	    font-size: 10px;
+	    line-height: 17px;
+	}
+	.bottom-footer {
+		position: absolute;
+	    bottom: 0px;
+	    padding: 0 15px;
+	    left: 0;
+	}
+	.mia-j-dasktop {
+	    padding: 28px 15px 0 15px;
+	    height: 88vh;
+	    position: relative;
+	}
+	.mia-j-top span {
+	    font-size: 9px;
+	    line-height: 12px;
+	}
+	.mia-address h3 strong {
+	    margin: 11px 7px 0px -3px;
+	    font-size: 43px;
+	    
+	}
+	.mia-address {
+	    position: absolute;
+	    bottom: 9px;
+	}
+}
+@media (max-width: 320px) {
+	.mobile-view1 {
+		width: 60%;
+		padding: 0px;
+	}
+	.mobile-view2 {
+		width: 40%;
+		padding: 0px;
+	}
+	.mobile-view1 figure img {
+		width: 170px;
+	}
+	.mia-j-right li img {
+	    width: 65px;
+	    height: auto;
+	}
+	.mia-address h2 {
+	    font-size: 8vw;
+	}
+	.mia-address h3 {
+	    font-size: 4vw;
+	    line-height: 1.2rem;
+	}
+
+	.mia-address h4 {
+	    letter-spacing: 5.5px;
+	    font-size: 9.4px;
+	    margin: 3px 0 3px;
+	}
+	.follow-us {
+	    margin: 0px 0 0;
+	    line-height: 3px;
+	}
+	.follow-us ul li {
+	    font-size: 8.7px !important;
+	    letter-spacing: 4px;
+	    padding: 0 2.4px;
+	    line-height: 9px;
+	}
+	.mia-j-top {
+	    height: auto !important;
+	}
+	.mia-j-top figure { 
+		min-height: 49vh;
+	}
+	.bottom-footer p {
+	    font-size: 10px;
+	    line-height: 17px;
+	}
+	.bottom-footer {
+		position: absolute;
+	    bottom: 12px;
+	    padding: 0 15px;
+	    left: 0;
+	}
+	.mia-j-dasktop {
+	    padding: 28px 15px 0 15px;
+	    height: 88vh;
+	    position: relative;
+	}
+	.mia-j-top span {
+	    font-size: 7.4px;
+	    letter-spacing: 0px !important;
+	    line-height: 11px;
+	}
+	.mia-address h3 strong {
+	    font-size: 2.6rem;
+	    margin: 8px 6px 0px -2px;
+	}
+	.mia-address {
+	    position: absolute;
+	    bottom: 13px;
+	}
+}
