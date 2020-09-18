@@ -1,0 +1,20 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="cart" unicode="&#xe800;" d="M823 43l-50 492a32 32 0 0 1-31 29h-118v96a207 207 0 0 1-412 0v-96h-130a32 32 0 0 1-32-29l-49-492a175 175 0 0 1 157-192c6 0 11-1 17-1h474a175 175 0 0 1 175 174 169 169 0 0 1-1 19z m-579 255a32 32 0 0 1 32 32v170h284v-170a32 32 0 1 1 64 0v170h88l47-464a112 112 0 0 0-28-86h0a111 111 0 0 0-83-37h-473a111 111 0 0 0-111 111c0 4 0 7 1 11l46 464h101v-169a32 32 0 0 1 32-32z m32 266v96a143 143 0 0 0 284 0v-96z" horiz-adv-x="824" />
+
+<glyph glyph-name="close" unicode="&#xe801;" d="M929 838l-400-401a40 40 0 0 0-58 0l-400 401a40 40 0 0 1-57 0h0a40 40 0 0 1 0-58l400-400a40 40 0 0 0 0-57l-402-402a40 40 0 0 1 0-57h0a40 40 0 0 1 58 0l400 400a40 40 0 0 0 57 0l402-402a40 40 0 0 1 57 0h0a40 40 0 0 1 0 58l-399 401a40 40 0 0 0 0 58l401 400a40 40 0 0 1 0 57h0a43 43 0 0 1-59 2z" horiz-adv-x="1000" />
+
+<glyph glyph-name="search" unicode="&#xe803;" d="M403 850a403 403 0 1 1 253-715l273-273a42 42 0 0 1 59 59h0l-273 272a403 403 0 0 1-312 657z m0-83a320 320 0 1 0-320-320h0a319 319 0 0 0 319 320z" horiz-adv-x="1000" />
+
+<glyph glyph-name="user" unicode="&#xe804;" d="M0-39c0 197 199 356 444 356s444-159 444-356c0-74-222-111-444-111s-444 37-444 111z m444 410a239 239 0 1 1-240 240h0a239 239 0 0 1 240-240z" horiz-adv-x="888" />
+
+<glyph glyph-name="menu" unicode="&#xe805;" d="M1272 384h-1225a34 34 0 0 1 0-68h1225a34 34 0 1 1 2 68z m-1225 386h1225a34 34 0 1 1 2 68h-1227a34 34 0 0 1 0-68z m1225-840h-1225a34 34 0 1 1-1-68h1226a34 34 0 1 1 2 68z" horiz-adv-x="1319" />
+</font>
+</defs>
+</svg>
